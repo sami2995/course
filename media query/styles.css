@@ -12,6 +12,7 @@ body {
     padding: 20px;
 }
 
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -19,10 +20,14 @@ header {
     padding: 10px 20px;
 }
 
-.logo {
-    font-size: 20px;
-    font-weight: bold;
-    color: #1a73e8;
+/* Google Meet Logo */
+.logo img {
+    height: 40px;
+}
+.top-icons img {
+    width: 24px;
+    margin-left: 15px;
+    cursor: pointer;
 }
 
 .time {
@@ -30,6 +35,7 @@ header {
     color: #5f6368;
 }
 
+/* Main content */
 main {
     display: flex;
     flex-direction: column;
@@ -55,6 +61,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* Buttons */
 .buttons {
     display: flex;
     flex-direction: column;
@@ -82,6 +89,7 @@ main {
     cursor: pointer;
 }
 
+/* Image section */
 .image-section img {
     width: 100%;
     max-width: 300px;
@@ -92,6 +100,13 @@ main {
 .link-section {
     text-align: center;
     margin-top: 10px;
+}
+
+/* Link icon */
+.link-icon {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 .link-text {
@@ -105,8 +120,6 @@ main {
     color: #5f6368;
     margin: 5px 0;
 }
-
-
 
 /* TABLETS & LARGER SCREENS */
 @media (min-width: 768px) {
